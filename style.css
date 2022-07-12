@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
 
 
@@ -16,6 +17,7 @@ header a {
     text-decoration: none;
     margin-right: 45px;
     font-size: 18px;
+    color: #3766E8;
 
 }
 
@@ -26,7 +28,7 @@ header a {
     margin: 0px auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 15px;
-    position:relative;
+    position: relative;
 
 }
 
@@ -48,7 +50,7 @@ header a {
 }
 
 .form-body {
-   
+
     padding: 0px 90px 40px 90px;
 }
 
@@ -153,13 +155,25 @@ header a {
 }
 
 .rectangle-border {
-    position:absolute;
-    top:260px;
-    left:-127px;
+    position: absolute;
+    top: 260px;
+    left: -127px;
     width: 1770px;
     height: 392px;
     background: #F0F0F0;
     opacity: 0.45;
     transform: rotate(-30deg);
-    
+
+}
+
+.side-border {
+    position: absolute;
+    width:769.01px;
+    height: 13.44px;
+    left: 792px;
+    top: 636.51px;
+    background: #3766E8;
+    opacity: 0.2;
+    transform: rotate(-30deg);
+
 }
