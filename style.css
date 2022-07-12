@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px 0px 60px;
+}
+
+header a {
+    text-decoration: none;
+    margin-right: 45px;
+    font-size: 18px;
+
+}
+
+.card {
+    width: 560px;
+    height: 570px;
+    background: #FFFFFF;
+    margin: 0px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+
+
+}
+
+.card-header {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.form-body {
+    border: 2px solid red;
+    padding: 0px 90px 40px 90px;
+}
+
+.form-child {
+    margin-bottom: 29px;
+}
+
+.input-field {
+    width: 368px;
+    height: 37px;
+    margin-top: 8px;
+    border: 1px solid #CED4DA;
+    border-radius: 6px;
+
+}
+
+.size-field {
+    margin-top: 8px;
+}
+
+.size-value {
+    background-color: #F0F0F0;
+    border-radius: 2px;
+    padding: 0px 8px 0px 8px;
+    margin-right: 13px;
+    text-align: center;
+    color: #545454;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#size-value {
+    background-color: #3766E8;
+    color: #FFFFFF;
+    border-radius: 2px;
+    padding: 0px 8px 0px 8px;
+    margin-right: 13px;
+    text-align: center;
+
+}
+
+.btn {
+    width: 368px;
+    height: 36px;
+    padding: 10px 40px;
+    text-align: center;
+    background-color: #3766E8;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+}
