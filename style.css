@@ -9,7 +9,7 @@ body {
 
 header {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     padding: 30px 60px;
 }
@@ -25,11 +25,12 @@ header a {
 
 
 }
-header a:hover
-{
+
+header a:hover {
     background-color: #3766E8;
     color: white;
 }
+
 .card {
     width: 560px;
     height: 611px;
@@ -143,7 +144,7 @@ header a:hover
 
 .rectangle-border {
     position: absolute;
-    z-index:-15;
+    z-index: -15;
     top: 260px;
     left: -127px;
     width: 1770px;
@@ -181,34 +182,56 @@ header a:hover
 .container-1 {
     padding-bottom: 80px;
 }
-.container-2
-{
+
+.container-2 {
     position: relative;
 }
+
 .container-2 p {
     text-align: center;
     font-size: 14px;
     font-weight: 400;
     color: #545454;
-    
+
 }
 
-.footer
-{
+.footer {
     display: flex;
-    justify-content: space-evenly;
-    align-self: baseline;
-    padding:5px;
-    background-color:black;
-    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    background-color: black;
     width: 100%;
-    height: 300px;
+    height: 200px;
     position: absolute;
     top: 950px;
-     
+
 }
-.footer a
-{
-    text-decoration: none;
-    color: rgb(140, 136, 136);
+
+.footer img {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer a {
+    text-decoration: solid;
+    margin-right: 25px;
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    position: absolute;
+    top: 1120px;
+    width: 100%;
+    height: 100px;
+    background-color: #3766E8;
+    text-align: center;
+    color: white;
+
+
 }
