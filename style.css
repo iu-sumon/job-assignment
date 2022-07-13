@@ -12,8 +12,6 @@ header {
     justify-content:space-between;
     align-items: center;
     padding: 30px 60px;
-
-
 }
 
 header a {
@@ -142,6 +140,7 @@ header a {
 
 .rectangle-border {
     position: absolute;
+    z-index:-15;
     top: 260px;
     left: -127px;
     width: 1770px;
