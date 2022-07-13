@@ -9,7 +9,7 @@ body {
 
 header {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     padding: 30px 60px;
 }
@@ -25,76 +25,79 @@ header a {
 
 
 }
-header a:hover
-{
+
+header a:hover {
     background-color: #3766E8;
     color: white;
 }
- .row
- {
+
+.row {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     width: 50%;
     margin: auto;
- }
- .col-1
- {
-     
-    text-align: center;
-    width: 460px;
-    height: 611px;
-    background-color: #FFFFFF;
-    margin: 0px auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
- }
- .col-2
- {
-    
-    text-align: center;
-    width: 460px;
-    height: 611px;
-    background-color: #FFFFFF;
-    margin: 0px auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
-    background-color: #3766E8;
-    color: #FFFFFF;
- }
+}
 
- .card-element
- {
-    display:flex;
-     align-items: center;
-     gap: 5px;
- }
- .card-body
- {
-     margin: 0px 70px;
- }
- #btn {
-    width: 350px;
-    height: 47px;
+.col-1 {
+
     text-align: center;
-    background-color:white;
-    border-radius: 35px;
-    border: none;
-    color:#3766E8;
-    font-weight:bold;
-    font-size:18px;
+    width: 460px;
+    height: 611px;
+    background-color: #FFFFFF;
+    margin: 0px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
 }
- .btn {
-    width: 350px;
-    height: 47px;
+
+.col-2 {
+
     text-align: center;
+    width: 460px;
+    height: 611px;
+    background-color: #FFFFFF;
+    margin: 0px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: #3766E8;
+    color: #FFFFFF;
+}
+
+.card-element {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.card-body {
+    margin: 0px 70px;
+}
+
+#btn {
+
+    text-align: center;
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 35px;
+    color: #3766E8;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn {
+   
+    text-align: center;
+    padding: 10px 30px;
     background-color: #3766E8;
     border-radius: 35px;
     border: none;
     color: #FFFFFF;
-    font-weight:bold;
-    font-size:18px;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
 }
+
 .footer {
     display: flex;
     justify-content: space-around;
