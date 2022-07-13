@@ -31,19 +31,23 @@ header a:hover {
     color: white;
 }
 
-.row {
-    display: grid;
+.container {
+   
+    width: 60%;
+    margin:0 auto;
+     
+}
+.row
+{ display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    width: 50%;
-    margin: auto;
+
 }
 
 .col-1 {
 
     text-align: center;
-    width: 460px;
-    height: 611px;
+     height: 611px;
     background-color: #FFFFFF;
     margin: 0px auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -53,7 +57,6 @@ header a:hover {
 .col-2 {
 
     text-align: center;
-    width: 460px;
     height: 611px;
     background-color: #FFFFFF;
     margin: 0px auto;
