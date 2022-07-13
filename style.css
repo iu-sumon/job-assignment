@@ -26,7 +26,11 @@ header a {
 
 
 }
-
+header a:hover
+{
+    background-color: #3766E8;
+    color: white;
+}
 .card {
     width: 560px;
     height: 611px;
